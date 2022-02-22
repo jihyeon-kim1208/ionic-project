@@ -6,12 +6,7 @@ module.exports = {
       collapsed: false,
       items: ['index', 'intro/upgrading-to-ionic-6', 'intro/environment', 'intro/cli', 'intro/cdn', 'intro/next'],
     },
-    {
-      type: 'category',
-      label: 'Layout',
-      collapsed: false,
-      items: ['layout/structure', 'layout/grid', 'layout/global-stylesheets', 'layout/css-utilities'],
-    },
+    
     {
       type: 'category',
       label: 'Developing',
@@ -26,6 +21,12 @@ module.exports = {
         'developing/hardware-back-button',
         'developing/keyboard',
       ],
+    },
+    {
+      type: 'category',
+      label: 'Layout',
+      collapsed: false,
+      items: ['layout/structure', 'layout/grid', 'layout/global-stylesheets', 'layout/css-utilities'],
     },
     {
       type: 'category',
