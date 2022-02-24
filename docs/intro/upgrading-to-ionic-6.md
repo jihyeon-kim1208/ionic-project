@@ -1,10 +1,24 @@
+
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
+
+[!WARNING]
+This is a warning
+
+| WARNING: This is a warning! |
+| --- |
+
+:warning: **If you are using mobile browser**: Be very careful here!
+  
 # L4 부하 분산
 
 ## 개요
 
 PAS-K는 일반 서버, 캐시 서버, 방화벽, VPN(가상 사설망) 장비의 부하 분산(loadbalancing) 기능을 제공하여 고가용성(high availability) 구성을 가능하게 해주는 L4 스위치입니다. PAS-K의 부하 분산 기능은 각 장비들의 트래픽을 분산하여 손쉽게 성능을 확장할 수 있도록 하고, 장비의 장애 감시 기능을 통하여 장비에 장애가 발생한 경우에도 다른 장비를 통해 지속적인 서비스가 유지될 수 있도록 합니다. 이와 같이 PAS-K의 부하분산 기능이 제공하는 고가용성과 안정성을 통하여 대용량의 웹사이트나 중요한 인터넷 업무 장소, 혹은 인터넷 서비스 업체(ISP)에서 손쉽게 장비를 확장하고 유지 관리할 수 있을 뿐 아니라 24시간 중단 없는 서비스를 간단하게 구현할 수 있습니다.
 
-PAS-K에서 제공하는 L4 부하 분산의 특징을 요약하면 다음과 같습니다.
+> :warning: **If you are using mobile browser**: Be very careful here!
+> 
+> **_NOTE:_** PAS-K에서 제공하는 L4 부하 분산의 특징을 요약하면 다음과 같습니다.
 
 - 네트워크 환경과 트래픽의 특성에 따라 다양하게 적용할 수 있는 여러 종류의 부하 분산 방식을 제공합니다.
 - 클라이언트 기반의 지속 연결 기능(persistence)을 제공합니다.
